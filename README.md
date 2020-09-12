@@ -8,11 +8,28 @@ Informatica/00_Lynda/_3_Youtube/MERN STACK
 Archivos:
 
 
-MERN STACK   CRUD Bootstrap Blog App   PART#1.mp4
+## MERN STACK   CRUD Bootstrap Blog App   PART#1.mp4
+conexions mongoDB ATLAS
 
-MERN STACK   CRUD Bootstrap Blog App   PART#2.mp4
+Servidor Epress
 
-MERN STACK   Build With React js Header, Navbar and Footer   PART#3.mp4
+Schema
+
+## MERN STACK   CRUD Bootstrap Blog App   PART#2.mp4
+
+ Add Articulos
+
+REQUEST FIND ARTICLES BY ID
+8:28
+
+
+REQUEST FIND ARTICLE BY ID AND UPDATE
+
+REQUEST FIND ARTICLE BY ID AND DELETE
+
+
+
+## MERN STACK   Build With React js Header, Navbar and Footer   PART#3.mp4
 
 MERN STACK   PART#4   React JS, React Router and Axios    Fetch and Display Data.mp4
 
