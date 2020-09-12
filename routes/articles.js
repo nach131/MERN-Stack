@@ -29,7 +29,6 @@ router.post('/add', (req, res) => {
 router.get('/:id', (req, res) => {
   Articles.findById(req.params.id)
     .then(article => res.json(article))
-    .catch(err => res.status(400).json(`Error: ${err}`));
 })
 
 
@@ -45,10 +44,15 @@ router.put('/update/:id', (req, res) => {
           .save()
           .then(() => res.json("El Articulo fue Acualizado"))
           .catch(err => res.status(400).json(`Error: ${err}`))
-    });
+    })
+    .catch(err => res.status(400).json(`Error: ${err}`))
 })
 
-
-
 // REQUEST FIND ARTICLE BY ID AND DELETE
+router.delete('/:id', (req, res) => {
+Articles.findByIdAndDelete(req.params.id)
+.then(()=> res.json("El articull fue eliminado"))
+.catch(err => res.status(400).json(`Error: ${err}`)); 
+})
+
 module.exports = router;
