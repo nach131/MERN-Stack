@@ -17,7 +17,7 @@ const Articles = ({ posts }) => {
       ) : (
 
           posts.map((article, key) => (
-            <div className="container">
+            <div className="container" key={key}>
               <h2>{article.title}</h2>
               <p>{article.article}</p>
               <span className="badge badge-secondary p-2">{article.authorname}</span>
