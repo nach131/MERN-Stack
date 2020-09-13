@@ -62,7 +62,11 @@ npm i --save-dev concurrently
 
 Servidor
 
+8:21  AddArticle.js
 
+12:17 Fornm
+
+21:46 control form
 
 MERN STACK   PART#6   Build EditArticle Component   And Delete Method By Id.mp4
 
