@@ -25,3 +25,9 @@
   left: 1rem;
   position: relative;
 }
+.articulos {
+  margin: 7rem 0;
+}
+.btn {
+  width: max-content;
+}
