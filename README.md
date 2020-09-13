@@ -55,8 +55,14 @@ useState, useEffect and axios
 
 7:30
 
-
 MERN STACK   PART#5   Create AddArticle component   Send Form Value to MongoDB with React Hooks.mp4
+
+cliente
+npm i --save-dev concurrently
+
+Servidor
+
+
 
 MERN STACK   PART#6   Build EditArticle Component   And Delete Method By Id.mp4
 

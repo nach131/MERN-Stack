@@ -10,7 +10,7 @@ import Articles from './components/Articles';
 function App() {
   const [posts, setPosts] = useState([])
 useEffect(()=>{
-  axios.get('http://localhost:8080/articles')
+  axios.get('/articles')
   .then(res => setPosts(res.data))
   .catch(error => console.log(error));
 })
