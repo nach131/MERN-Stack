@@ -38,6 +38,12 @@ HEADER
 
 6:23
 
+NavBar
+19:45
+
+Footer
+31:00
+
 
 MERN STACK   PART#4   React JS, React Router and Axios    Fetch and Display Data.mp4
 
