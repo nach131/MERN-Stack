@@ -6,6 +6,7 @@ import Header from './components/layouts/Header';
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 import Articles from './components/Articles';
+import Article from './components/Article';
 import AddArticle from './components/AddArticle';
 
 function App() {
@@ -21,6 +22,7 @@ useEffect(()=>{
       <Header />
       <Navbar />
       <Route exact path="/" render={() => <Articles posts={posts}/>}/>
+      <Route path="/article/:id" render={(props) => <Article{...props} posts={posts}/>}/>
       <Route excact path="/add-article" component={AddArticle}/>
       <Footer />
     </div>
