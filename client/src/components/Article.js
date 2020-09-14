@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
+
 import Spinner from "react-bootstrap/Spinner";
 
 
@@ -31,7 +33,10 @@ const Article = (props) => {
           <>
             <h2>{title}</h2>
             <p>{article}</p>
-            <p>{authorname}</p>
+            <p className="badge badge-secondary">{authorname}</p>
+            <br/>
+          <Link to="/" type="submit" className="btn btn-info">Back to Home</Link>
+
           </>
         }
       </div>
