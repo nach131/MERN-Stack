@@ -1,0 +1,16 @@
+service: aws-lambda-nach
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  memorySize: 512
+  timeout: 15
+  stage: production
+  region: eu-west-3
+
+  function:
+    api:
+      handler: lambda.handler
+      events:
+        - http: ANY {proxy+}
+        - http: ANY /

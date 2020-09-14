@@ -73,3 +73,16 @@ MERN STACK   PART#6   Build EditArticle Component   And Delete Method By Id.mp4
 24:40 boton editar articulo
 
 41:30 Delete Article
+
+
+# Lambda 
+Deploy NodeJS Express API as AWS Lambda Function in 20 minutes.mp4
+
+5:31 install aws-cli
+
+9:11 install aws-serverless-express
+
+
+https://www.serverless.com/framework/docs/providers/aws/guide/serverless.yml/#serverlessyml-reference
+
+Serverless.yml aws buscar en la web de serverless
