@@ -50,3 +50,8 @@ text-align: center;
 font-weight: 900;
 color: var(--dark-green);
 }
+.message{
+  font-weight: 900;
+  color: tomato;
+  padding: 1rem 1rem  1rem 0;
+}

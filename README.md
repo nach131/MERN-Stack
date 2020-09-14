@@ -70,3 +70,6 @@ Servidor
 
 MERN STACK   PART#6   Build EditArticle Component   And Delete Method By Id.mp4
 
+24:40 boton editar articulo
+
+41:30 Delete Article
