@@ -40,3 +40,13 @@ width: 31.25rem;
   font-weight: 900;
   color: var(--dark-green)
 }
+#articulo{
+  margin: 6rem auto;
+  padding: 3rem 14rem;
+
+}
+#articulo h2{
+text-align: center;
+font-weight: 900;
+color: var(--dark-green);
+}
